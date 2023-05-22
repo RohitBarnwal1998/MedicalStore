@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Click on this Button</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()"> Click Here to watch time
+    </button>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML=aws()" ;> Click Here to watch time
+    </button>
+    <button type="button" onclick="document.getElementById('demo2').innerHTML=change()">Change the sentences
+        onclick</button>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"> Hello UP.</p>
+    <p id="demo5"> Hello UP and world and my father.</p>
+    <button type="button" onclick="document.getElementById('demo4').innerHTML=changethings()">Hi</button>
+
+    <script>
+        document.getElementById('demo3').innerHTML = "W3school.com";
+        function aws() {
+            let x = 0, y = 0;
+            let z = 0;
+            z = x + y;
+            return z;
+        }
+
+        function change() {
+            document.getElementById('demo4').innerHTML = 'hello my world';
+        }
+        function changethings() {
+            document.getElementById('demo5').style.color = "red";
+            document.getElementById('demo5').style.fontSize = "45px";
+            document.getElementById('demo5').style.backgroun = "blue";
+        }
+
+
+    </script>
+</body>
+
+</html>
